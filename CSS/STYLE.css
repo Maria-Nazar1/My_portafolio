@@ -1,0 +1,146 @@
+/* ==== CONFIGURACIÓN GLOBAL ==== */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+    color:white;
+  }
+ 
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* ==== TÍTULO PRINCIPAL ==== */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #c2185b;
+  }
+  
+  /* ==== LAYOUT PRINCIPAL ==== */
+  main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  aside {
+    width: 25%;
+    background-color: #000;
+    border: 1px solid #f362b7;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  section {
+    width: 75%;
+    background-color: hotpink;
+    border: 1px solid #f362b7;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* ==== NAV Y FOOTER ==== */
+   footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ff69b4;
+    padding: 15px 0;
+    border-top: 2px solid #e754a1;
+  }
+  
+ 
+ 
+  footer span {
+    font-weight: bold;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+  }
+  
+
+  footer span:hover {
+    color: #ffe0f0;
+  }
+  
+  /* ==== CARDS ==== */
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  article {
+    flex: 1 1 200px;
+    background-color: hotpink;
+    border: 1px solid #999;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  article, section {
+    color: white;
+    text-shadow: 1px 1px 2px #00000055;
+  }
+  
+  
+  article:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff69b4;
+    padding: 15px 30px;
+    border-bottom: 2px solid #e754a1;
+  }
+  
+  .nav-left, .nav-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav span {
+    font-weight: bold;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav span:hover {
+    background-color: #ff92c2;
+  }
+  
+  .nav-right a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-right a:hover {
+    color: #ffe0f0;
+  }
+  
+  
